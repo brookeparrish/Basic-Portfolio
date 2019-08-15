@@ -127,6 +127,27 @@ p {
     color: #777777;
 }
 
+input {
+    width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 6px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 10%;
+    text-align: center;
+}
 
 
 
