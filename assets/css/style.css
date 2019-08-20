@@ -8,7 +8,11 @@
 }
 
 body {
-    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777777;
+    background: url('../images/concrete-texture.png');
 }
 
 .text-center {
@@ -115,7 +119,7 @@ hr {
     width: 960px;
     background-color: white;
     margin: 0;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
@@ -128,14 +132,16 @@ hr {
     width: 960px;
     background-color: white;
     margin: 0;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
+    bottom: 75%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     padding: 25px;
     border: thin solid #dddddd; 
 }
+
 
 p {
     line-height: 2.0;
